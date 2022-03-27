@@ -25,5 +25,7 @@ export default {
         app,
         $canvas,
         ctx: $canvas.getContext('2d')
-    }
+    },
+    bubbleMax: 7,
+    bubbles: []
 }
